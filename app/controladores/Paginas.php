@@ -1,10 +1,10 @@
 <?php
 
     class Paginas extends Controller{
-        private $articuloModelo;
 
         public function __construct(){
             $this->articuloModelo = $this->modelo('Articulo');
+
             
             //echo 'controlador paginas cargado';
         }
